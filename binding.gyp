@@ -26,7 +26,7 @@
           "cflags!": [ "-fno-exceptions" ],
           "cflags_cc!": [ "-fno-exceptions", "-pthread", "-Wl,--no-as-needed", "-ldl" ],
           "cflags_cc": [ "-Wno-ignored-qualifiers" ],
-          "cflags": [ "-std=c++0x", "-stdlib=libc++" ],
+          "cflags": [ "-std=c++11", "-stdlib=libc++" ],
           "include_dirs": [
             "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"
           ],
@@ -40,7 +40,7 @@
           ],
           "cflags_cc!": [ "-fno-exceptions", "-pthread", "-Wl,--no-as-needed", "-ldl" ],
           "cflags_cc": [ "-Wno-ignored-qualifiers" ],
-          "cflags": [ "-std=c++0x", "-g" ]
+          "cflags": [ "-std=c++11", "-g" ]
         }],
         ["OS==\"win\"", {
           "libraries": [
